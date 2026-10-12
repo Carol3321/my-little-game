@@ -1,0 +1,56 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, "Microsoft YaHei", sans-serif;
+    background: linear-gradient(#75d7ff, #d8f7ff);
+    text-align: center;
+    color: #54352b;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#game {
+    position: relative;
+    width: min(90%, 700px);
+    height: 350px;
+    margin: 30px auto;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 20px;
+    background: linear-gradient(#65ceff 0%, #c8f5ff 100%);
+    box-shadow: 0 8px 20px #4386a544;
+}
+
+#ground {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(#79db4b 0 20%, #6bba38 20% 32%, #9a6038 32%);
+    border-top: 5px solid #488b2b;
+}
+
+#pig {
+    position: absolute;
+    left: 80px;
+    bottom: 65px;
+    font-size: 55px;
+    line-height: 1;
+}
+
+#hint {
+    margin-top: 15px;
+    font-weight: bold;
+}
